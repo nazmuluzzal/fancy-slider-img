@@ -113,7 +113,7 @@ const createSlider = () => {
       changeSlide(slideIndex);
     }, duration);
   } else {
-    alert("Please Write positive vlaue");
+    alert("Please Write positive value");
     document.getElementById("duration").value = "";
     document.querySelector(".main").style.display = "none";
     imagesArea.style.display = "block";
